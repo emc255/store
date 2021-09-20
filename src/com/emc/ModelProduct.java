@@ -1,5 +1,7 @@
 package com.emc;
 
+import java.util.Map;
+
 public class ModelProduct {
     private  int id;
     private String title;
@@ -7,6 +9,8 @@ public class ModelProduct {
     private  String description;
     private String category;
     private String image;
+    //nested object first solution is map
+    private Map<String, Integer>rating;
 
     public int getId() {
         return id;
@@ -31,4 +35,9 @@ public class ModelProduct {
     public String getImage() {
         return image;
     }
+
+    public Map<String, Integer> getRating() {
+        return rating;
+    }
+
 }

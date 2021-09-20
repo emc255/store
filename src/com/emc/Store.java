@@ -42,10 +42,11 @@ public class Store {
             List<ModelProduct> result = mapper.readValue(response.body(), new TypeReference<>() {
             });
 
-            // Finally we have the response
+          //   Finally we have the response
             for (ModelProduct product: result) {
-                products.add(new Product(product.getId(),product.getTitle(),product.getPrice(),product.getDescription(),product.getCategory(),product.getImage()));
+                products.add(new Product(product.getId(),product.getTitle(),product.getPrice(),product.getDescription(),product.getCategory(),product.getImage(),product.getRating()));
             }
+            
 
         } catch (IOException | InterruptedException e){
             e.printStackTrace();

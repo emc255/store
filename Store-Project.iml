@@ -5,11 +5,11 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="corretto-16" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Graphic-Repository" level="application" />
-    <orderEntry type="library" name="jackson-annotations-2.11.3" level="application" />
-    <orderEntry type="library" name="jackson-core-2.11.3" level="application" />
-    <orderEntry type="library" name="jackson-databind-2.11.3" level="application" />
+    <orderEntry type="library" name="jackson-databind-2.13.0-rc1" level="application" />
+    <orderEntry type="library" name="jackson-core-2.13.0-rc1" level="application" />
+    <orderEntry type="library" name="jackson-annotations-2.13.0-rc1" level="application" />
   </component>
 </module>
